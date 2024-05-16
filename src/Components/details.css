@@ -1,0 +1,27 @@
+/* Add these styles to your CSS file */
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .calendar-day {
+    width: calc(14.28% - 10px); /* 14.28% to evenly distribute 7 days in a row */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .calendar-date {
+    font-weight: bold;
+  }
+  
+  .calendar-data {
+    margin-top: 5px;
+  }
+  
+  /* Add more specific styles for the calendar data if needed */
+  
